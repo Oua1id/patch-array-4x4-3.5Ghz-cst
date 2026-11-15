@@ -43,7 +43,6 @@ Autres captures dans `results/` : directivité, gain, tableau d'efficacité.
 - Travail réalisé uniquement en simulation, sans fabrication ni mesure à ce stade.
 - L'efficacité (≈ 46 %) est limitée par les pertes du FR-4 : test d'un substrat à faibles pertes (Rogers) prévu.
 - Chaque patch a sa propre ligne d'alimentation : conception d'un réseau d'alimentation commun (corporate feed) prévue.
-- Fabrication et mesure au VNA prévues pour comparer simulation et mesure.
 
 ## Contact
 Oualid Bargach, [LinkedIn](https://www.linkedin.com/in/oualid-bargach)
