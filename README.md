@@ -15,13 +15,19 @@ L'élément unitaire est un patch rectangulaire de 26 mm × 20 mm sur une cellul
 Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, longueur 3 mm). Plan de masse en face inférieure.
 
 ![Paramètres de la cellule](results/00_parametres_cellule.png)
+
 *Paramètres CST de la cellule unitaire.*
 
+
 ![Layout 4×4](results/02_layout_4x4.png)
+
 *Disposition du réseau 4×4 (vue de dessus).*
 
+
 ![Modèle 3D](results/01_model_3d.png)
+
 *Modèle 3D du réseau sous CST Studio Suite.*
+
 
 ## Résultats de simulation (CST Studio Suite)
 | Paramètre | Valeur |
