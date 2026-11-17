@@ -11,25 +11,18 @@ Ce dépôt présente la conception et les résultats de simulation d'un réseau 
 - Gain et directivité maximisés
 
 ## Conception
+## Conception
 L'élément unitaire est un patch rectangulaire de 26 mm × 20 mm sur une cellule de substrat de 40 mm × 40 mm (FR-4, 1,6 mm). La cellule est reproduite 16 fois pour former le réseau 4×4.
-Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, longueur 3 mm). Plan de masse en face inférieure.
 
-![Paramètres de la cellule](results/00_parametres_cellule.png)
+Chaque patch est alimenté par une ligne microruban adaptée à 50 Ω. Plan de masse en face inférieure.
 
-*Paramètres CST de la cellule unitaire.*
-
-
-
-
-
-![Layout 4×4](results/02_layout_4x4.png)
-
-*Disposition du réseau 4×4 (vue de dessus).*
-
-
-![Modèle 3D](results/01_model_3d.png)
-
-*Modèle 3D du réseau sous CST Studio Suite.*
+<table>
+<tr>
+<td align="center"><img src="results/00_parametres_cellule.png" width="300"><br><em>Paramètres CST de la cellule</em></td>
+<td align="center"><img src="results/02_layout_4x4.png" width="220"><br><em>Disposition 4×4 (vue de dessus)</em></td>
+<td align="center"><img src="results/01_model_3d.png" width="220"><br><em>Modèle 3D sous CST</em></td>
+</tr>
+</table>
 
 
 ## Résultats de simulation (CST Studio Suite)
@@ -46,29 +39,27 @@ Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, long
 | Ouverture à −3 dB (plan vertical) | 27,1° |
 | Lobes secondaires (plan vertical) | −14,6 dB |
 
-![S11](results/03_s11.png)
+<p align="center"><img src="results/03_s11.png" width="640"><br><em>S11 : minimum de −19,6 dB à 3,535 GHz</em></p>
 
-*Coefficient de réflexion S11 : minimum de −19,6 dB à 3,535 GHz.*
+<br>
 
-![Bande passante](results/04_bandwidth_s11_minus10dB.png)
+<p align="center"><img src="results/04_bandwidth_s11_minus10dB.png" width="640"><br><em>Bande passante à −10 dB : 3,476 à 3,590 GHz (≈ 114 MHz)</em></p>
 
-*Bande passante à −10 dB : 3,476 à 3,590 GHz (≈ 114 MHz).*
+<br>
 
-![VSWR](results/05_vswr.png)
+<p align="center"><img src="results/05_vswr.png" width="640"><br><em>VSWR : minimum ≈ 1,27 à 3,525 GHz</em></p>
 
-*VSWR : minimum de ≈ 1,27 à 3,535 GHz.*
+<br>
 
-![Diagramme 3D](results/06_pattern_3d.png)
+<p align="center"><img src="results/06_pattern_3d.png" width="560"><br><em>Diagramme de rayonnement 3D à 3,5 GHz (lobe principal en broadside)</em></p>
 
-*Diagramme de rayonnement 3D à 3,5 GHz : lobe principal en broadside.*
+<br>
 
-![Coupe θ = 90°](results/10_cut_theta90.png)
+<p align="center"><img src="results/10_cut_theta90.png" width="640"><br><em>Coupe θ = 90° (plan de l’antenne, loin du lobe principal)</em></p>
 
-*Coupe du diagramme (θ = 90°).*
+<br>
 
-![Coupe φ = 90°](results/11_cut_phi90.png)
-
-*Coupe du diagramme (φ = 90°) : ouverture à −3 dB de 27,1°, lobes secondaires à −14,6 dB.*
+<p align="center"><img src="results/11_cut_phi90.png" width="640"><br><em>Coupe φ = 90° : ouverture à −3 dB de 27,1°, lobes secondaires à −14,6 dB</em></p>
 
 Autres captures dans `results/` : directivité, gain, tableau d'efficacité.
 
