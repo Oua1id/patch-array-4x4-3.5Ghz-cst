@@ -16,8 +16,15 @@ Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, long
 
 ![Paramètres de la cellule](results/00_parametres_cellule.png)
 
+*Paramètres CST de la cellule unitaire.*
+
 ![Layout 4×4](results/02_layout_4x4.png)
+
+*Disposition du réseau 4×4 (vue de dessus).*
+
 ![Modèle 3D](results/01_model_3d.png)
+
+*Modèle 3D du réseau sous CST Studio Suite.*
 
 ## Résultats de simulation (CST Studio Suite)
 | Paramètre | Valeur |
@@ -34,11 +41,28 @@ Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, long
 | Lobes secondaires (plan vertical) | −14,6 dB |
 
 ![S11](results/03_s11.png)
+
+*Coefficient de réflexion S11 : minimum de −19,6 dB à 3,535 GHz.*
+
 ![Bande passante](results/04_bandwidth_s11_minus10dB.png)
+
+*Bande passante à −10 dB : 3,476 à 3,590 GHz (≈ 114 MHz).*
+
 ![VSWR](results/05_vswr.png)
+
+*VSWR : minimum de ≈ 1,27 à 3,535 GHz.*
+
 ![Diagramme 3D](results/06_pattern_3d.png)
+
+*Diagramme de rayonnement 3D à 3,5 GHz : lobe principal en broadside.*
+
 ![Coupe θ = 90°](results/10_cut_theta90.png)
+
+*Coupe du diagramme (θ = 90°).*
+
 ![Coupe φ = 90°](results/11_cut_phi90.png)
+
+*Coupe du diagramme (φ = 90°) : ouverture à −3 dB de 27,1°, lobes secondaires à −14,6 dB.*
 
 Autres captures dans `results/` : directivité, gain, tableau d'efficacité.
 
