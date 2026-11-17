@@ -38,7 +38,7 @@ Chaque patch est alimenté par une ligne microruban adaptée à 50 Ω. Plan de m
 | Efficacité totale | −3,55 dB (≈ 44 %) |
 | Ouverture à −3 dB (plan vertical) | 27,1° |
 | Lobes secondaires (plan vertical) | −14,6 dB |
-
+<br>
 <p align="center"><img src="results/03_s11.png" width="640"><br><em>S11 : minimum de −19,6 dB à 3,535 GHz</em></p>
 
 <br>
