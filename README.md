@@ -19,6 +19,9 @@ Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, long
 *Paramètres CST de la cellule unitaire.*
 
 
+
+
+
 ![Layout 4×4](results/02_layout_4x4.png)
 
 *Disposition du réseau 4×4 (vue de dessus).*
