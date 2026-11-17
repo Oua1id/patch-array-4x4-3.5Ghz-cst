@@ -11,7 +11,10 @@ Ce dépôt présente la conception et les résultats de simulation d'un réseau 
 - Gain et directivité maximisés
 
 ## Conception
-Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm). Plan de masse continu en face inférieure.
+L'élément unitaire est un patch rectangulaire de 26 mm × 20 mm sur une cellule de substrat de 40 mm × 40 mm (FR-4, 1,6 mm). La cellule est reproduite 16 fois pour former le réseau 4×4.
+Chaque patch est alimenté par une ligne microruban de 50 Ω (largeur 3 mm, longueur 3 mm). Plan de masse en face inférieure.
+
+![Paramètres de la cellule](results/00_parametres_cellule.png)
 
 ![Layout 4×4](results/02_layout_4x4.png)
 ![Modèle 3D](results/01_model_3d.png)
